@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(to right, rgb(255, 245, 193),rgb(226, 207, 111));
+    /*Cria o degrade de duas ou mais cores*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+div{
+    margin: 20px;
+    padding: 10px;
+}
+h1{
+    color: #8d0042;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+h2
+{
+    color: lightpink;
+    font-size: 45px;
+}
+
+h3{
+    color: #8d0042;
+    font-size: 35px;
+}
+h2,h3{
+    font-size: 30px;
+}
+
+p{
+    color: black;
+    font-size: 30px;
+}
+img{
+    width: 300px;
+    border-radius: 30px;
+    transition: 0,3s;
+}
+
+img:hover{
+    transform: scale(1.05);
+
+
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(255, 248, 207);
+    color: rgb(133, 87, 32);
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0,3s;
+    padding: 10px 20px
+}
+
+a:hover{
+    font-size: 25px;
+    background-color: burlywood;
+    transform: scale(1.10);
+}
+    
+footer{
+    text-align: right;
+    color: black;
+    margin-right: 50px;
+    margin-bottom: 20px
+    ;
+}
+.titulo {
+    background-color: aqua;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30% ;
+    transition: 0,3s;/*deixa a transição mais suave*/
+}
+
+.sobre-mim:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transition: 0,3s;
+}
+
+.hobbies:hover{
+background-color: #8d0042 rgb(19, 206, 140);
+width: 50;
+border-radius: 20px;
+margin-left: auto;
+}
